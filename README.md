@@ -2,7 +2,7 @@
 
 Meta-project for code intelligence, repository mapping, and runtime integration tooling under `RogerNavelsaker/*`.
 
-This umbrella groups the repos that help agents understand codebases or integrate runtime-specific behavior, without mixing them into the general CLI packaging layer.
+This umbrella groups the repos that help agents understand codebases or integrate runtime-specific behavior, without mixing them into the general CLI packaging layer. It now also serves as the shared workspace entrypoint for that slice.
 
 ## Repositories
 
@@ -18,6 +18,15 @@ This umbrella groups the repos that help agents understand codebases or integrat
 - Group code understanding and repo-shape tooling together
 - Keep runtime extensions visible as first-class infrastructure, not ad hoc patches
 - Separate runtime integration work from CLI packaging repositories
+
+## Shared Workspace
+
+- Preferred layout: clone this repo and the underlying repos as siblings under `~/Repositories`
+- Shell: Flox + `direnv` via [manifest.toml](/home/rona/Repositories/runtime-intel/.flox/env/manifest.toml) and [.envrc](/home/rona/Repositories/runtime-intel/.envrc)
+- Workspace file: [runtime-intel.code-workspace](/home/rona/Repositories/runtime-intel/runtime-intel.code-workspace)
+- Bootstrap missing sibling repos with `./scripts/bootstrap`
+- Inspect workspace state with `./scripts/status`
+- Submodules are intentionally not used
 
 ## Related Meta Projects
 

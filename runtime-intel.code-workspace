@@ -1,0 +1,48 @@
+{
+  "folders": [
+    {
+      "name": "runtime-intel",
+      "path": "."
+    },
+    {
+      "name": "code-intel-ts",
+      "path": "../code-intel-ts"
+    },
+    {
+      "name": "code-intel-rust",
+      "path": "../code-intel-rust"
+    },
+    {
+      "name": "repo-map",
+      "path": "../repo-map"
+    },
+    {
+      "name": "os-eco-pi-extension",
+      "path": "../os-eco-pi-extension"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.direnv": true,
+      "**/.flox": true
+    },
+    "files.watcherExclude": {
+      "**/.direnv/**": true,
+      "**/.flox/**": true
+    },
+    "search.exclude": {
+      "**/.direnv": true,
+      "**/.flox": true
+    },
+    "git.detectSubmodules": false
+  },
+  "extensions": {
+    "recommendations": [
+      "mkhl.direnv",
+      "rust-lang.rust-analyzer",
+      "biomejs.biome",
+      "github.vscode-github-actions",
+      "github.vscode-pull-request-github"
+    ]
+  }
+}
