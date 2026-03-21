@@ -21,9 +21,9 @@ This umbrella groups the repos that help agents understand codebases or integrat
 
 ## Shared Workspace
 
-- Preferred layout: clone this repo and the underlying repos as siblings under `~/Repositories`
-- Shell: Flox + `direnv` via [manifest.toml](/home/rona/Repositories/runtime-intel/.flox/env/manifest.toml) and [.envrc](/home/rona/Repositories/runtime-intel/.envrc)
-- Workspace file: [runtime-intel.code-workspace](/home/rona/Repositories/runtime-intel/runtime-intel.code-workspace)
+- Preferred layout: clone this repo as `~/Repositories/@runtime-intel` and keep the underlying repos as sibling directories under `~/Repositories`
+- Shell: Flox + `direnv` via [manifest.toml](/home/rona/Repositories/@runtime-intel/.flox/env/manifest.toml) and [.envrc](/home/rona/Repositories/@runtime-intel/.envrc)
+- Workspace file: [runtime-intel.code-workspace](/home/rona/Repositories/@runtime-intel/runtime-intel.code-workspace)
 - Bootstrap missing sibling repos with `./scripts/bootstrap`
 - Inspect workspace state with `./scripts/status`
 - Submodules are intentionally not used
