@@ -10,7 +10,7 @@ repos=(
   code-intel-ts
   code-intel-rust
   repo-map
-  os-eco-pi-extension
+  pi-os-eco
 )
 
 if ! command -v gh >/dev/null 2>&1; then

@@ -17,8 +17,8 @@
       "path": "../repo-map"
     },
     {
-      "name": "os-eco-pi-extension",
-      "path": "../os-eco-pi-extension"
+      "name": "pi-os-eco",
+      "path": "../pi-os-eco"
     }
   ],
   "settings": {
