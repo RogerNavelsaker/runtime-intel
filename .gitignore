@@ -1,1 +1,5 @@
 .direnv/
+nixpkg-code-intel-ts/
+nixpkg-code-intel-rust/
+nixpkg-repo-map/
+pi-os-eco/
