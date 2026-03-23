@@ -8,9 +8,9 @@ This umbrella groups the repos that help agents understand codebases or integrat
 
 | Repository | Focus |
 | --- | --- |
-| [code-intel-ts](https://github.com/RogerNavelsaker/nixpkg-code-intel-ts) | TypeScript code intelligence tooling |
-| [code-intel-rust](https://github.com/RogerNavelsaker/nixpkg-code-intel-rust) | Rust code intelligence tooling |
-| [repo-map](https://github.com/RogerNavelsaker/nixpkg-repo-map) | Repository structure and mapping support |
+| [nixpkg-code-intel-ts](https://github.com/RogerNavelsaker/nixpkg-code-intel-ts) | TypeScript code intelligence tooling |
+| [nixpkg-code-intel-rust](https://github.com/RogerNavelsaker/nixpkg-code-intel-rust) | Rust code intelligence tooling |
+| [nixpkg-repo-map](https://github.com/RogerNavelsaker/nixpkg-repo-map) | Repository structure and mapping support |
 | [pi-os-eco](https://github.com/RogerNavelsaker/pi-os-eco) | Pi runtime integration for Overstory-managed sessions |
 
 ## Scope

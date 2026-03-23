@@ -7,9 +7,9 @@ repo_root="$(cd -- "$script_dir/.." && pwd)"
 workspace_root="${SHARED_WORKSPACE_ROOT:-$(dirname "$repo_root")}"
 
 repos=(
-  code-intel-ts
-  code-intel-rust
-  repo-map
+  nixpkg-code-intel-ts
+  nixpkg-code-intel-rust
+  nixpkg-repo-map
   pi-os-eco
 )
 

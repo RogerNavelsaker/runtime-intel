@@ -5,16 +5,16 @@
       "path": "."
     },
     {
-      "name": "code-intel-ts",
-      "path": "../code-intel-ts"
+      "name": "nixpkg-code-intel-ts",
+      "path": "../nixpkg-code-intel-ts"
     },
     {
-      "name": "code-intel-rust",
-      "path": "../code-intel-rust"
+      "name": "nixpkg-code-intel-rust",
+      "path": "../nixpkg-code-intel-rust"
     },
     {
-      "name": "repo-map",
-      "path": "../repo-map"
+      "name": "nixpkg-repo-map",
+      "path": "../nixpkg-repo-map"
     },
     {
       "name": "pi-os-eco",
