@@ -11,9 +11,9 @@ bat.pkg-path = "bat"
 eza.pkg-path = "eza"
 bun.pkg-path = "bun"
 rustup.pkg-path = "rustup"
-code-intel-rust.flake = "github:RogerNavelsaker/code-intel-rust"
-code-intel-ts.flake = "github:RogerNavelsaker/code-intel-ts"
-repo-map.flake = "github:RogerNavelsaker/repo-map"
+code-intel-rust.flake = "github:RogerNavelsaker/nixpkg-code-intel-rust"
+code-intel-ts.flake = "github:RogerNavelsaker/nixpkg-code-intel-ts"
+repo-map.flake = "github:RogerNavelsaker/nixpkg-repo-map"
 
 [vars]
 WORKSPACE_OWNER = "RogerNavelsaker"

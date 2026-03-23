@@ -10,10 +10,10 @@
         "pkg-path": "bun"
       },
       "code-intel-rust": {
-        "flake": "github:RogerNavelsaker/code-intel-rust"
+        "flake": "github:RogerNavelsaker/nixpkg-code-intel-rust"
       },
       "code-intel-ts": {
-        "flake": "github:RogerNavelsaker/code-intel-ts"
+        "flake": "github:RogerNavelsaker/nixpkg-code-intel-ts"
       },
       "direnv": {
         "pkg-path": "direnv"
@@ -34,7 +34,7 @@
         "pkg-path": "jq"
       },
       "repo-map": {
-        "flake": "github:RogerNavelsaker/repo-map"
+        "flake": "github:RogerNavelsaker/nixpkg-repo-map"
       },
       "ripgrep": {
         "pkg-path": "ripgrep"
@@ -375,12 +375,12 @@
     },
     {
       "install_id": "code-intel-rust",
-      "locked-url": "github:RogerNavelsaker/code-intel-rust/e3b366d277455ec135322513401c06bb9b1a6864?narHash=sha256-e4crM80Wnb9tMveklTLuq9Ou/jz/6EioBZgUFVhEbN8%3D",
+      "locked-url": "github:RogerNavelsaker/nixpkg-code-intel-rust/7fd8b10bb19f5bdb323ff46e90a73f56c4ff205a?narHash=sha256-wifRbrreTOqWfOFwugT9/TtBt815r7727zkYYFe2eww%3D",
       "flake-description": "Nix packaging scaffold for code-intel-rust",
       "locked-flake-attr-path": "packages.x86_64-linux.default",
-      "derivation": "/nix/store/z4d7j8mfdi9hfl6zklcjlcnm247mf2r9-code-intel-rust-0.1.0.drv",
+      "derivation": "/nix/store/qiqhdlcxp5ld365cjpx6n0ipb9q99fa6-code-intel-rust-0.1.0.drv",
       "outputs": {
-        "out": "/nix/store/lx7gvmkv4pzs5140izi5d0pwz091blim-code-intel-rust-0.1.0"
+        "out": "/nix/store/8s1phz75hl3vzfhq66xlrhx4k9cn29ld-code-intel-rust-0.1.0"
       },
       "output-names": [
         "out"
@@ -400,12 +400,12 @@
     },
     {
       "install_id": "code-intel-ts",
-      "locked-url": "github:RogerNavelsaker/code-intel-ts/93ef3a6e40d5994cccabf06873ca26f226ede470?narHash=sha256-7XN71g56WbAWGTAwBtAaQO8tGdOPfFvMRctjYAYwOBw%3D",
+      "locked-url": "github:RogerNavelsaker/nixpkg-code-intel-ts/80b7872314d4eced084e2c31c63a21ced8ef6404?narHash=sha256-Bauv5wi0Dd4A4bwx1k07DRIH%2BCgHgV4hmOZnCE79I4M%3D",
       "flake-description": "Nix packaging scaffold for code-intel-ts",
       "locked-flake-attr-path": "packages.x86_64-linux.default",
-      "derivation": "/nix/store/nn4x4bh8bnr08fxi5py7792kcq4mqimi-code-intel-ts-0.1.0.drv",
+      "derivation": "/nix/store/vr33wx65wbld7drdy665yw2bsvh8h31q-code-intel-ts-0.1.0.drv",
       "outputs": {
-        "out": "/nix/store/nk927g16jys9xg318i96ym33hv2v59bn-code-intel-ts-0.1.0"
+        "out": "/nix/store/fgq2l56azw9swbrk08i5ypp74m1g3krz-code-intel-ts-0.1.0"
       },
       "output-names": [
         "out"
@@ -425,12 +425,12 @@
     },
     {
       "install_id": "repo-map",
-      "locked-url": "github:RogerNavelsaker/repo-map/09a12939e055116c6a5939c95a755a8255cf6e11?narHash=sha256-egtgZ/lEjYHbmssKMpZXqxzE1%2BNxSYeHSq7oSDODgOc%3D",
+      "locked-url": "github:RogerNavelsaker/nixpkg-repo-map/6cfdd7097c161cf0d4e7273d77701c72e19d2466?narHash=sha256-dEPk2tRJXeWHazAcg6Yott%2BtkBYXDWO13yljzRZinKY%3D",
       "flake-description": "Nix packaging scaffold for repo-map",
       "locked-flake-attr-path": "packages.x86_64-linux.default",
-      "derivation": "/nix/store/1xwiyqjk0f3lsn9xybjnx4yw68yd569f-repo-map-0.1.0.drv",
+      "derivation": "/nix/store/r67g0lc75x4az1kn8y94kfjcmb3xgvj3-repo-map-0.1.0.drv",
       "outputs": {
-        "out": "/nix/store/p53ai7pm7vs2pg8svrii408laf1kg5nb-repo-map-0.1.0"
+        "out": "/nix/store/9f4w701bck37ywgwyq9bja2kvchgiy81-repo-map-0.1.0"
       },
       "output-names": [
         "out"
