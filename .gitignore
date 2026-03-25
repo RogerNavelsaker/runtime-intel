@@ -1,5 +1,10 @@
 .direnv/
-nixpkg-code-intel-ts/
-nixpkg-code-intel-rust/
-nixpkg-repo-map/
+code-intel-rust/
+code-intel-ts/
+context-mode-cli/
+context-mode-mcp/
+nixos-cli/
+pi-context-mode/
 pi-os-eco/
+repo-map/
+toolflow-mcp/
