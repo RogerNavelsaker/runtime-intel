@@ -1,14 +1,6 @@
 schema-version = "1.10.0"
 
 [install]
-git.pkg-path = "git"
-gh.pkg-path = "gh"
-direnv.pkg-path = "direnv"
-jq.pkg-path = "jq"
-ripgrep.pkg-path = "ripgrep"
-fd.pkg-path = "fd"
-bat.pkg-path = "bat"
-eza.pkg-path = "eza"
 bun.pkg-path = "bun"
 rustup.pkg-path = "rustup"
 code-intel-rust.flake = "github:RogerNavelsaker/nixpkg-code-intel-rust"

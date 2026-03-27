@@ -7,10 +7,14 @@ repo_root="$(cd -- "$script_dir/.." && pwd)"
 workspace_root="${SHARED_WORKSPACE_ROOT:-$repo_root}"
 
 repos=(
-  nixpkg-code-intel-ts
-  nixpkg-code-intel-rust
-  nixpkg-repo-map
+  code-intel-rust
+  code-intel-ts
+  context-mode-cli
+  context-mode-mcp
+  nixos-cli
+  pi-context-mode
   pi-os-eco
+  repo-map
 )
 
 if ! command -v gh >/dev/null 2>&1; then

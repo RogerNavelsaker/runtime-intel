@@ -5,20 +5,36 @@
       "path": "."
     },
     {
-      "name": "nixpkg-code-intel-ts",
-      "path": "./nixpkg-code-intel-ts"
+      "name": "code-intel-rust",
+      "path": "./code-intel-rust"
     },
     {
-      "name": "nixpkg-code-intel-rust",
-      "path": "./nixpkg-code-intel-rust"
+      "name": "code-intel-ts",
+      "path": "./code-intel-ts"
     },
     {
-      "name": "nixpkg-repo-map",
-      "path": "./nixpkg-repo-map"
+      "name": "context-mode-cli",
+      "path": "./context-mode-cli"
+    },
+    {
+      "name": "context-mode-mcp",
+      "path": "./context-mode-mcp"
+    },
+    {
+      "name": "nixos-cli",
+      "path": "./nixos-cli"
+    },
+    {
+      "name": "pi-context-mode",
+      "path": "./pi-context-mode"
     },
     {
       "name": "pi-os-eco",
       "path": "./pi-os-eco"
+    },
+    {
+      "name": "repo-map",
+      "path": "./repo-map"
     }
   ],
   "settings": {
