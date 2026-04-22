@@ -1,62 +1,16 @@
 {
   "folders": [
     {
-      "name": "@runtime-intel",
+      "name": "runtime-intel",
       "path": "."
-    },
-    {
-      "name": "code-intel-rust",
-      "path": "./code-intel-rust"
-    },
-    {
-      "name": "code-intel-ts",
-      "path": "./code-intel-ts"
-    },
-    {
-      "name": "context-mode-cli",
-      "path": "./context-mode-cli"
-    },
-    {
-      "name": "context-mode-mcp",
-      "path": "./context-mode-mcp"
-    },
-    {
-      "name": "nixos-cli",
-      "path": "./nixos-cli"
-    },
-    {
-      "name": "pi-context-mode",
-      "path": "./pi-context-mode"
-    },
-    {
-      "name": "pi-os-eco",
-      "path": "./pi-os-eco"
-    },
-    {
-      "name": "repo-map",
-      "path": "./repo-map"
     }
   ],
   "settings": {
-    "files.exclude": {
-      "**/.direnv": true,
-      "**/.flox": true
-    },
-    "files.watcherExclude": {
-      "**/.direnv/**": true,
-      "**/.flox/**": true
-    },
-    "search.exclude": {
-      "**/.direnv": true,
-      "**/.flox": true
-    },
     "git.detectSubmodules": false
   },
   "extensions": {
     "recommendations": [
       "mkhl.direnv",
-      "rust-lang.rust-analyzer",
-      "biomejs.biome",
       "github.vscode-github-actions",
       "github.vscode-pull-request-github"
     ]

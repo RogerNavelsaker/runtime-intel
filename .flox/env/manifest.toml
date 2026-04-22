@@ -1,27 +1,13 @@
 schema-version = "1.10.0"
 
 [install]
-bun.pkg-path = "bun"
-rustup.pkg-path = "rustup"
-code-intel-rust.flake = "github:RogerNavelsaker/nixpkg-code-intel-rust"
-code-intel-ts.flake = "github:RogerNavelsaker/nixpkg-code-intel-ts"
-repo-map.flake = "github:RogerNavelsaker/nixpkg-repo-map"
 
 [vars]
-WORKSPACE_OWNER = "RogerNavelsaker"
-WORKSPACE_META = "runtime-intel"
 
 [hook]
 on-activate = '''
-  export META_REPO_ROOT="$FLOX_ENV_PROJECT"
-  export SHARED_WORKSPACE_ROOT="$FLOX_ENV_PROJECT"
+  # Symlink repos from RogerNavelsaker based on pattern
+  for r in ../runtime-intel pi-* context-mode-* code-intel-* repo-map nixos-cli toolflow-mcp; do
+    [ -d "$r" ] && ln -sf "$r" .
+  done
 '''
-
-[profile]
-common = """
-  alias workspace-bootstrap="$META_REPO_ROOT/scripts/bootstrap"
-  alias workspace-status="$META_REPO_ROOT/scripts/status"
-"""
-
-[options]
-systems = ["x86_64-linux"]
