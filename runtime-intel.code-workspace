@@ -1,18 +1,17 @@
 {
-  "folders": [
-    {
-      "name": "runtime-intel",
-      "path": "."
-    }
-  ],
-  "settings": {
-    "git.detectSubmodules": false
-  },
-  "extensions": {
-    "recommendations": [
-      "mkhl.direnv",
-      "github.vscode-github-actions",
-      "github.vscode-pull-request-github"
-    ]
-  }
+	"folders": [
+		{ "path": "." },
+		{ "path": "toolflow-mcp" },
+		{ "path": "linehash-edit" },
+		{ "path": "pi-context-mode" },
+		{ "path": "context-mode-mcp" },
+		{ "path": "pi-toolflow" },
+		{ "path": "nixos-cli" },
+		{ "path": "repo-map" },
+		{ "path": "code-intel-rust" },
+		{ "path": "code-intel-ts" },
+		{ "path": "context-mode-cli" },
+		{ "path": "pi-os-eco" }
+	],
+	"settings": {}
 }

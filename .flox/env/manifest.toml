@@ -6,8 +6,15 @@ schema-version = "1.10.0"
 
 [hook]
 on-activate = '''
-  # Symlink repos from RogerNavelsaker based on pattern
-  for r in ../runtime-intel pi-* context-mode-* code-intel-* repo-map nixos-cli toolflow-mcp; do
-    [ -d "$r" ] && ln -sf "$r" .
+  # Guard: Only run in the physical meta-repo directory
+  if [ "$(pwd -P)" != "/home/rona/Repositories/RogerNavelsaker/runtime-intel" ]; then
+    return
+  fi
+
+  # Symlink runtime-intel related repos
+  for r in ../toolflow-mcp ../runtime-intel ../linehash-edit ../pi-context-mode ../context-mode-mcp ../pi-toolflow ../nixos-cli ../repo-map ../code-intel-rust ../code-intel-ts ../context-mode-cli ../pi-os-eco; do
+    if [ -d "$r" ] && [ "$(basename "$r")" != "runtime-intel" ]; then
+      ln -snf "$r" .
+    fi
   done
 '''
